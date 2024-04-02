@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's a Game!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="home">
+    <header>
+        <div class="navbar navbar-expand-lg" >
+            <div class="container">
+                <h1 class="logo">It's A Game!</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills ">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#noticias">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#analises">Análises</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#guias">Guias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button id="cadastro" type="button" class="btn btn-primary">Cadastre-se</button>
+                <button id="login" type="button" class="btn btn-primary">Entrar</button>
+            </div>
+        </div>
+    </header>    
+    <main>
+        <div class="container">
+            <section id="banner">
+                <div id="carousel-base" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img class="d-block" src="assets/images/zeldaBanner.jpg">
+                            <div class="carousel-caption">
+                                <h2>
+                                    <a href="#">Nosso guia completo!</a>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block" src="assets/images/gameBanner.png">
+                            <div class="carousel-caption">
+                                <h2>
+                                    <a href="#">O que esperar sobre os novos jogos!</a>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block" src="assets/images/analiseBanner.png">
+                            <div class="carousel-caption">
+                                <h2>
+                                    <a href="#">Testamos o novo Forza Motorspot!</a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel-base" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-base" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" type="button" data-bs-target="#carousel-base" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-base" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-base" data-bs-slide-to="2"></button>
+                    </div>
+                </div > 
+            </section>
+            <section id="noticias">
+                <div class="container">
+                    <h2 class="section-title">Notícias</h2>
+                    <div class="row">
+                        <div class=" col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <img src="https://external-preview.redd.it/hi-everyone-i-am-working-on-a-new-design-for-my-entities-v0-dWN2c214b3F0cW1jMYdCgGNJ1Xs6xQDskK3moDuJ9T6ySeh26-tap01SFCqB.png?format=pjpg&auto=webp&s=e6b7d4b69a7ea57824f443f8ed62d99e5e525419">
+                                <div class="card-body">
+                                    <h4 class="h3">Sobrevivência de mundo aberto?</h4>
+                                    <p class="card-text">
+                                        Um novo jogo de mundo aberto e anomalias será lançado no Steam, ele foi comparado...
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Ler mais!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <img src="https://www.adrenaline.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=500&height=500&format=webp&quality=60&imagick=uploads.adrenaline.com.br/2023/06/forza-motorsport-capa.jpg">
+                                <div class="card-body">
+                                    <h4 class="h3">Revolucionando as Pistas</h4>
+                                    <p class="card-text">
+                                        Descubra como o novo Forza Motorsport está redefinindo os limites com gráficos de tirar o fôlego, física realista e...
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Ler mais!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <img src="https://store-images.s-microsoft.com/image/apps.62211.14281959400456729.871028c8-df4c-403f-826e-d4deb249dc43.b5be9148-05ab-41a0-af06-5a2e7e03d0f3">
+                                <div class="card-body">
+                                    <h4 class="h3">EA FC 24: Uma Nova Era para os Fãs de Futebol</h4>
+                                    <p class="card-text">
+                                        Mergulhe na emoção do EA FC 24 com sua jogabilidade aprimorada...
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Ler mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <img src="https://store-images.s-microsoft.com/image/apps.62211.14281959400456729.871028c8-df4c-403f-826e-d4deb249dc43.b5be9148-05ab-41a0-af06-5a2e7e03d0f3">
+                                <div class="card-body">
+                                    <h4 class="h3">EA FC 24: Uma Nova Era para os Fãs de Futebol</h4>
+                                    <p class="card-text">
+                                        Mergulhe na emoção do EA FC 24 com sua jogabilidade aprimorada...
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Ler mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <img src="https://external-preview.redd.it/hi-everyone-i-am-working-on-a-new-design-for-my-entities-v0-dWN2c214b3F0cW1jMYdCgGNJ1Xs6xQDskK3moDuJ9T6ySeh26-tap01SFCqB.png?format=pjpg&auto=webp&s=e6b7d4b69a7ea57824f443f8ed62d99e5e525419">
+                                <div class="card-body">
+                                    <h4 class="h3">Sobrevivência de mundo aberto?</h4>
+                                    <p class="card-text">
+                                        Um novo jogo de mundo aberto e anomalias será lançado no Steam, ele foi comparado...
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Ler mais!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </section>
+
+            <section id="analises">
+                <div class="container">
+                    <h2 class="section-title">Análises</h2>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202209/0101/FKcRXNtkuNwC7bL24mgznJq5.png">
+                                <div class="card-body">
+                                    <h4 class="h3">Hollow Knight: Silksong - A Obra-prima Ressurge</h4>
+                                    <p class="card-text">
+                                        Em 'Hollow Knight: Silksong', a Team Cherry eleva a fasquia com uma exploração mais profunda, combates refinados e um mundo vibrante que promete desafiar até os veteranos do gênero. A jornada de Hornet é uma mistura magistral de beleza, perigo e mistério, estabelecendo novos padrões para os jogos de plataforma e metroidvania.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Ler mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <img src="https://preview.redd.it/hot-take-i-want-a-third-person-option-gameplay-for-the-v0-0wuuwacblusb1.jpg?width=640&crop=smart&auto=webp&s=6063c37ca18bdbf9e403d9ccf56e2e2d3deaaf5c">
+                                <div class="card-body">
+                                    <h4 class="h3">Cyberpunk 2077: Redenção Além do Neon</h4>
+                                    <p class="card-text">
+                                        Após um lançamento turbulento, 'Cyberpunk 2077' finalmente brilha com as suas recentes atualizações e expansões, apresentando uma Night City mais imersiva e interativa. A rica narrativa e o mundo aberto detalhado compensam a espera, oferecendo uma experiência singular em um futuro distópico repleto de escolhas morais complexas e personagens inesquecíveis.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Ler mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <img src="https://s2-techtudo.glbimg.com/_tmRjoylhidOdOVj6fSxur2q5mM=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/C/w/0c866sTNGjWkOsg4TBfw/1dca6b02-2534-40f7-866a-ae1abc7c9a66.jpg">
+                                <div class="card-body">
+                                    <h4 class="h3">The Legend of Zelda: Breath of the Wild 2 - Elevando a Aventura</h4>
+                                    <p class="card-text">
+                                        A sequência de 'Breath of the Wild' redefine o conceito de liberdade em jogos de aventura, com uma Hyrule expandida que é tão bela quanto perigosa. Com mecânicas inovadoras, enigmas inteligentes e uma história cativante, este jogo promete horas de exploração e descoberta. 'Breath of the Wild 2' não é apenas uma continuação, mas uma evolução que honra e supera seu antecessor.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Ler mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>            
+            </section>
+
+            <section id="guias">
+                <div class="container">
+                    <h2 class="section-title">Guias</h2>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <img src="https://m.media-amazon.com/images/M/MV5BZTA3NGViNmItNDJhOS00OTliLTlmZDAtMWI3YWEyYTE2NWQyXkEyXkFqcGdeQXVyMTI1Mzg0ODA5._V1_.jpg">
+                                <div class="card-body">
+                                    <h4 class="h3">Detonado: Resident Evil - Em Busca da Sobrevivência</h4>
+                                    <p class="card-text">
+                                        Bem-vindo ao mundo sombrio de Resident Evil, onde o terror espreita em cada canto. Neste guia detalhado, vamos acompanhar a jornada dos protagonistas em sua luta contra as terríveis criaturas criadas pela corporação Umbrella. Aprenda estratégias de sobrevivência, encontre itens essenciais e desvende os mistérios por trás do infame incidente em Racoon City.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Ler mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <img src="https://blogdataverna.com.br/wp-content/uploads/2023/06/chronotrigger-752x432.jpg">
+                                <div class="card-body">
+                                    <h4 class="h3">Detonado Essencial de Chrono Trigger</h4>
+                                    <p class="card-text">
+                                        Embarque nesta jornada épica através das eras em Chrono Trigger. Este guia conciso levará você desde os primeiros passos de Chrono na Feira do Milênio até o confronto final contra Lavos. prenda a otimizar suas formações de equipe, descubra os segredos para obter as melhores armas e magias, e navegue pelos intrincados caminhos temporais para desbloquear todos os finais.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Ler mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <img src="https://assets-prd.ignimgs.com/2021/12/14/castlevaniasymp-1639445441428.jpg">
+                                <div class="card-body">
+                                    <h4 class="h3">Castlevania: Symphony of the Night - Desvendando o Castelo Invertido</h4>
+                                    <p class="card-text">
+                                        Desperte no sombrio mundo de Castlevania: Symphony of the Night! Este breve guia é a chave mestra para desbloquear os mistérios do castelo de Dracula, oferecendo estratégias para vencer os chefes mais desafiadores, localizar os itens essenciais escondidos e maximizar o nível e habilidades de Alucard. Aprenda os segredos para acessar o Castelo Invertido.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Ler mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>            
+            </section>
+            <section id="contato">
+                <h2 class="section-title">Contato</h2>
+                <div class="row">
+                    <div class="col">
+                        <form>
+                            <label class="form-label" for="nome">Seu nome:</label>
+                            <input class="form-control " type="text" name="nome" id="nome">
+                            <label class="form-label" for="tel">Seu celular:</label>
+                            <input class="form-control " type="tel" name="tel" id="tel">
+                            <label class="form-label" for="email">Seu e-mail:</label>
+                            <input class="form-control " type="email" name="email" id="email">
+                            <label class="form-label" for="mensagem">Sua mensagem:</label>
+                            <textarea class="form-control" id="mensagem" name="mensagem"></textarea>            
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" name="aceito-termos" id="aceito-termos">
+                                <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
+                            </div>
+                            <button class="btn btn-primary">Enviar</button>
+                            
+                        </form>
+                    </div>
+            </section>
+            
+        </div>           
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="direitos">
+                        <p>&copy; Todos os direitos reservados - 2024 / Thiago Lopes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="assets/lib/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+        
+</body>
+</html>
